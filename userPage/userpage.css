@@ -22,10 +22,28 @@ body
     border-radius: 1.5rem;
     color: #c7cde1;;
     
-    padding-inline: 8rem;
+    padding-inline:8rem;
     padding-block: 5vh;
-    transition: all 1s ease;
+    transition: all 1s;
+    transition-timing-function:ease-out;
     position: fixed;
+
+    translate:100rem;
+    animation: swing linear 1s alternate;
+    transform-origin: center;
+}
+@keyframes swing {
+    from
+    {
+        rotate: 45deg;
+    }
+    to{
+        rotate:0deg;
+    }
+}
+#main-outer-div-translated
+{
+    translate:0;
 }
 .profile-picture
 {
