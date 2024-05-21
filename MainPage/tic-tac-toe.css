@@ -1,3 +1,9 @@
+:root
+{
+    --bkgrnd-clr:#0D1633;
+    --txt-clr: #c7cde1;
+    --btn-clr: #343E59;
+}
 body
 {
     margin-inline-end: 1rem;
@@ -86,11 +92,11 @@ button:hover
 }
 #autoplaybtn
 {
-    animation: arrives 1s ease 1.3s 1 both ;
+    animation: arrives 1s ease 1.5s 1 both ;
 }
 #startOverBtn-id
 {
-    animation: arrives 1s ease 1.5s 1 both ;
+    animation: arrives 1s ease 1.3s 1 both ;
 }
 .display
 {
