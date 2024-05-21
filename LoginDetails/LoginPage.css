@@ -19,9 +19,19 @@ body{
     border: 1px groove #343366;
     padding: 2rem;
     border-radius: 1.5rem;
-    backdrop-filter:blur(1rem);
     transition: all 1s ease;
     rotate: y 90deg;
+    animation: rotation 1.3s ease .3s 1 both;
+}
+@keyframes rotation {
+    from
+    {
+        rotate: y 90deg;
+    }
+    to
+    {
+        rotate: y 0deg;
+    }
 }
 .heading-div
 {
@@ -37,6 +47,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    gap: 1rem;
 }
 .input-boxes
 {

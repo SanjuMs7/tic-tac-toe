@@ -1,0 +1,130 @@
+@media(max-width:411px)
+{
+    .main-outer-login
+    {
+        padding: 1rem;
+    }
+    .input-boxes
+    {
+        width:14.5rem;
+    }
+    .loginButton
+    {
+        width: 6.5rem;
+    }
+    .login-info
+    {
+        font-size: 10px;
+        justify-content: center;
+    }
+    .button-div
+    {
+        padding-top:1.5rem;
+    }
+}
+@media(max-width:330px)
+{
+    .main-outer-login
+    {
+        padding: .5rem;
+    }
+    .input-boxes
+    {
+        width:14rem;
+    }
+    .loginButton
+    {
+        width: 6rem;
+        height: 2rem;
+    }
+    .login-info
+    {
+        font-size: 10px;
+        justify-content: center;
+    }
+    .button-div
+    {
+        padding-top:1rem;
+    }
+}
+/* @media(max-width:300px)
+{
+    .heading-div
+    {
+        font-size: 10px;
+    }
+    .main-outer-login
+    {
+        padding: 0rem;
+    }
+    .input-boxes
+    {
+        width:12rem;
+        height: 2rem;
+    }
+    .loginButton
+    {
+        width: 4rem;
+        height: 1.5rem;
+        font-size: 8px;
+    }
+    .login-info
+    {
+        font-size: 8px;
+        justify-content: center;
+    }
+    .button-div
+    {
+        padding-top:.5rem;
+    }
+} */
+/*height*/
+@media(max-height:570px)
+{
+    .heading-div
+    {
+        font-size: 10px;
+    }
+    .inputs
+    {
+        gap: .5rem;
+    }
+    .input-boxes
+    {
+        height: 2rem;
+    }
+    .loginButton
+    {
+        width: 6rem;
+        height: 2rem;
+    }
+    .button-div
+    {
+        padding-top: 1rem;
+    }
+
+}
+@media(max-height:420px)
+{
+    .login-info
+    {
+        display: none;
+    }
+    .main-outer-login
+    {
+        padding: 1rem;
+    }
+    input::placeholder
+    {
+        font-size: 10px;
+    }
+    .loginButton{
+        font-size: 12px;
+        width: 5rem;
+        height: 1.5rem;
+    }
+    .heading-div
+    {
+        padding-bottom: 0rem;
+    }
+}
