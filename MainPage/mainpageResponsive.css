@@ -1,0 +1,242 @@
+@media(max-width:697px)
+{
+    .username-div
+    {
+        display: none;
+    }
+    .user-dp
+    {
+        width:5rem;
+        height: 5rem;
+    }
+}
+@media(max-width:557px)
+{
+    .boxes
+    {
+        width: 6rem;
+        height: 6rem;
+    }
+    .icon
+    {
+        width: 5rem;
+        height: 5rem;
+    }
+    button
+    {
+        height: 3rem;
+        width: 8rem;
+        font-size: 1rem;
+    }
+    #game-title
+    {
+        font-size: 20px;
+    }
+}
+@media(max-width:430px)
+{
+    .user-dp
+    {
+        width: 3rem;
+        height: 3rem;
+    }
+}
+@media(max-width:376px)
+{
+    .boxes
+    {
+        width: 5rem;
+        height: 5rem;
+    }
+    .icon
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+    button
+    {
+        height: 2.5rem;
+        width: 5.5rem;
+        font-size: 13px;
+    }
+    .user-dp
+    {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+@media(max-width:321px) , (max-height:496px)
+{
+    .boxes
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+    .icon,.icons
+    {
+        width: 3rem;
+        height: 3rem;
+    }
+    button
+    {
+        height: 2rem;
+        width: 5rem;
+        font-size: 10px;
+    }
+    .user-dp
+    {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+}
+@media(max-width:270px)
+{
+    .user-profile
+    {
+        display: none;
+    }
+}
+/* height */
+@media(max-height:630px)
+{
+    .boxes
+    {
+        width: 6rem;
+        height: 6rem;
+    }
+    .icon
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+    button
+    {
+        height: 3rem;
+        width: 7rem;
+        font-size: 15px;
+        margin-top: 2.5rem;
+    }
+    #game-title
+    {
+        font-size: 25px;
+    }
+    .username-div
+    {
+        font-size: 15px;
+    }
+    .user-dp
+    {
+        width: 4rem;
+        height:4rem;
+    }
+}
+@media(max-height:483px)
+{
+    .boxes
+    {
+        width: 5rem;
+        height: 5rem;
+    }
+    .icon
+    {
+        width: 3rem;
+        height: 3rem;
+    }
+    button
+    {
+        height: 2rem;
+        width: 6rem;
+        font-size: 12px;
+        margin-top: 2rem;
+    }
+    #game-title
+    {
+        font-size: 20px;
+    }
+    .username-div
+    {
+        font-size: 12px;
+    }
+    .user-dp
+    {
+        width: 3rem;
+        height:3rem;
+    }
+}
+@media (max-height:400px)
+{
+    .boxes
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+    .icon
+    {
+        width: 3rem;
+        height: 3rem;
+    }
+    button
+    {
+        height: 2rem;
+        width: 5rem;
+        font-size: 10px;
+    }
+    #game-title
+    {
+        font-size: 18px;
+    }
+    button
+    {
+        margin-top: 2rem;
+    }
+    .username-div
+    {
+        font-size: 10px;
+    }
+    .user-dp
+    {
+        width: 3rem;
+        height:3rem;
+    }
+}
+@media(max-height:336px)
+{
+    .boxes
+    {
+        width: 3rem;
+        height: 3rem;
+    }
+    .icon
+    {
+        width: 2rem;
+        height: 2rem;
+    }
+    button
+    {
+        height: 1.5rem;
+        width: 4rem;
+        font-size: 8px;
+    }
+    #game-title
+    {
+        font-size: 15px;
+    }
+    button
+    {
+        margin-top: 1rem;
+    }
+    .username-div
+    {
+        font-size: 6px;
+    }
+    .user-dp
+    {
+        width: 2rem;
+        height:2rem;
+    }
+    .user-email
+    {
+        font-size: 6px;
+    }
+}

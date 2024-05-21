@@ -107,11 +107,11 @@ const wonchecking=()=>{
         {
             if(won =='x')
             {
-                title.innerHTML=`Congratulations <img src="${x_icon}"> Won`
+                title.innerHTML=`Congratulations <img src="${x_icon}" class="icons"> Won`
             }
             else if(won=='o')
             {
-                title.innerHTML=`Congratulations <img src="${o_icon}"> Won`
+                title.innerHTML=`Congratulations <img src="${o_icon}" class="icons"> Won`
             }
             isAutoPlayOn=false;
         }

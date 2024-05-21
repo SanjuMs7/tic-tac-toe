@@ -23,7 +23,7 @@ body
     color: #c7cde1;;
     
     padding-inline:8rem;
-    padding-block: 5vh;
+    padding-block: 2rem;
     transition: all 1s ease-in-out;
 
     animation: swing 2s ease 0s 1 forwards ;
@@ -49,7 +49,7 @@ body
 {
     width:6rem;
     height:6rem;
-    margin-top: -10rem;
+    margin-top: -12rem;
     border: 1px groove #343366;
     border-radius: 50%;
     background-color: #0D1633;
@@ -60,6 +60,12 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.place-email-div
+{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 .email
 {

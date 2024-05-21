@@ -38,14 +38,19 @@
 }
 @media(max-height:440px)
 {
+    body
+    {
+        margin-top: 1rem;
+    }
     .main-outer-div
     {
         margin-top:1rem;
+        padding-block: 1rem;
     }
     .profile-picture
     {
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 5rem;
     }
     .button-div
     {
@@ -56,7 +61,17 @@
 {
     .main-outer-div
     {
-        scale: 1.4;
-        padding-block: 3vh;
+        scale: 1;
+    }
+}
+@media(max-height:268px)
+{
+    .place-email-div
+    {
+        display: none;
+    }
+    .username
+    {
+        font-size: 1.3rem;
     }
 }
