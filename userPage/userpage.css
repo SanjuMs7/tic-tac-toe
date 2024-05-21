@@ -24,7 +24,7 @@ body
     
     padding-inline:8rem;
     padding-block: 5vh;
-    transition: all 1s ease-out;
+    transition: all 1s ease-in-out;
 
     animation: swing 2s ease 0s 1 forwards ;
     transform-origin: center;
