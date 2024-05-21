@@ -38,6 +38,7 @@ body
     50%
     {
         translate:-10rem;
+        rotate: -10deg;
     }
     to{
         rotate:0deg;
