@@ -599,7 +599,3 @@ const compareOpponent=(id)=>{
             }
     },1000);                                                                                           
 }
-
-setTimeout(() => {
-    document.querySelector('.main-outer').style.scale=1;
-},100);
