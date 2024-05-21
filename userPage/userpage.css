@@ -24,26 +24,25 @@ body
     
     padding-inline:8rem;
     padding-block: 5vh;
-    transition: all 1s;
-    transition-timing-function:ease-out;
-    position: fixed;
+    transition: all 1s ease-out;
 
-    translate:100rem;
-    animation: swing linear 1s alternate;
+    animation: swing 2s ease 0s 1 forwards ;
     transform-origin: center;
 }
 @keyframes swing {
     from
     {
         rotate: 45deg;
+        translate:100rem;
+    }
+    50%
+    {
+        translate:-10rem;
     }
     to{
         rotate:0deg;
+        translate:0rem;
     }
-}
-#main-outer-div-translated
-{
-    translate:0;
 }
 .profile-picture
 {
