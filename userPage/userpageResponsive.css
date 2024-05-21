@@ -1,0 +1,62 @@
+
+@media (max-width:475px)
+{
+    .main-outer-div
+    {
+        padding-inline: 5rem;
+    }
+}
+@media (max-width:370px)
+{
+    .main-outer-div
+    {
+        padding-inline: 2rem;
+    }
+}
+@media(max-width:267px)
+{
+    .profile-picture
+    {
+        width:3rem;
+        height: 3rem;
+    }
+    .score-details
+    {
+        display: none;
+    }
+}
+@media(max-height:579px)
+{
+    .main-outer-div
+    {
+        padding-block: 2rem;
+    }
+    .score-details
+    {
+        display: none;
+    }
+}
+@media(max-height:440px)
+{
+    .main-outer-div
+    {
+        margin-top:1rem;
+    }
+    .profile-picture
+    {
+        width: 4rem;
+        height: 4rem;
+    }
+    .button-div
+    {
+        display: none;
+    }
+}
+@media(min-width:1024px)
+{
+    .main-outer-div
+    {
+        scale: 1.4;
+        padding-block: 3vh;
+    }
+}
