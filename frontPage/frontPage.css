@@ -35,13 +35,6 @@ body
 }
 .start-button
 {
-    transform: perspective(1000px);
-    transform: ('60');
-    transform: scale(0);
-    transition: all .3s ease;
-}
-.start-buttonAfterText
-{
     width: 12vw;
     height: 4vw;
     color: white;
@@ -52,9 +45,26 @@ body
     font-weight: 900;
     font-size: 1.5vw;
     cursor: pointer;
-    transition: all .3s ease;
-    opacity: .7;
-    transform: scale(1);
+    transition: all 1s ease;
+    opacity: .6;
+
+    transform: scale(0);
+    animation: scaling 1s ease 1.5s 1 both;
+}
+@keyframes scaling {
+    from
+    {
+        transform: scale(0);
+        font-size: 1.5rem;
+    }
+    50%
+    {
+        transform: scale(1.1);
+    }
+    to
+    {
+        transform: scale(1);
+    }
 }
 #btn-start:hover
 {
