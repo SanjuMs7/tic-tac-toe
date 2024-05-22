@@ -206,6 +206,7 @@
     {
         width: 3rem;
         height: 3rem;
+        border-radius: 5px;
     }
     .icon
     {
@@ -239,4 +240,20 @@
     {
         font-size: 6px;
     }
+    #row1
+    {
+        gap: .4rem;
+    }
+    #row2
+    {
+        gap: .4rem;
+    }#row3
+    {
+        gap: .4rem;
+    }
+    .main-outer
+    {
+        gap: .4rem;
+    }
+
 }
